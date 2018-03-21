@@ -61,3 +61,23 @@ into consideration from the above mentioned Panchatantra Story:
 'carpenters', 'came', 'wounded', 'wood', 'wise', 'went', 'watched',
 'trees', 'they', 'temple', 'surely', 'sudden', 'start', 'severely', 'say',
 'sawing', 'sat', 'return', 'resume', 'result', 'pulling']
+
+It is not easy to formulate the story using the above list of keywords. Also,
+there are dangling pronouns i.e he, his, it which are not useful for story
+formulation. Hence, frequency alone cant be used for semantic similarity.
+
+### Linguistic knowledge
+Linguistic knowledge helps the algorithm to filter out non-relevant words according to their PoS tags. We have used only nouns and verbs as potential
+keywords. Nouns in the passage tell us the important characters and hence
+are helpful in framing the story. Verbs are also important in telling the task
+the nouns are performing in the text. [14], [15] has shown the importance of
+linguistic knowledge for identifcation of important keywords. Following is
+the list of keywords using word frequency and Pos tags as features :
+>['log', 'wedge', 'monkey', 'worker', 'work', 'start', 'place', 'meal',
+'come', 'site', 'mid-day', 'half-split', 'caught', 'carpenter', 'wound',
+'wood', 'wise', 'watch', 'tree', 'temple', 'say', 'saw', 'sat', 'return',
+'resume', 'result', 'pull', 'prevent', 'play', "other's", 'morning',
+'merchant', 'mason', 'leave', 'jumping', 'interferes', 'instrument']
+
+Adding linguistic knowledge helps in bringing nouns and verbs from the
+story but still the list of keywords is not similar to the story.
