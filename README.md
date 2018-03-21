@@ -3,6 +3,8 @@ Report of Summer research fellowship program at Indian Academy of Sciences 2017
 <br>
 [Link to the file](https://github.com/Upa005/Semantic-Analysis-for-Narrative-Texts/blob/master/Semantic%20Analysis%20for%20Narrative%20Texts.pdf)
 
+---
+
 Semantic analysis is the process of analysing the semantic of a text, i.e. determining the meaning of the text and analysing it. To measure the semantics
 of a text, certain semantic measures have been developed. According to
 the literature of natural language processing, semantic measure can be
