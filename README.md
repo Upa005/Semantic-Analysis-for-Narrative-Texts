@@ -118,11 +118,13 @@ At the end, weights of the words are added and the word co-occurrence is further
 top 17% of the words are preserved as keywords. The keywords are then
 presented in a sequential order which will help the reader to formulate the
 information.
+
 ![Figure2](https://github.com/Upa005/Semantic-Analysis-for-Narrative-Texts/blob/master/Images/weightvskeyword2.PNG)
 
 This graph represents the weights associated with each keyword. `log', `work',
 `monkey', `wedge'are appearing as the top keywords. The above mentioned
 Panchatantra story is also revolving around the words monkey, log and wedge.
+
 ![Figure3](https://github.com/Upa005/Semantic-Analysis-for-Narrative-Texts/blob/master/Images/sectionvskeyword3.PNG)
 
 This graph represents the co-occurrence of keywords in a sentence. Keywords
