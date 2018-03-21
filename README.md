@@ -25,9 +25,9 @@ We are proposing the following five feature for keywords extraction:
 * Sequencing
 
 Following is a story, 
->The Monkey and the Wedge' from Panchatantra
+The Monkey and the Wedge' from Panchatantra
 which is an ancient Indian collection of animal fables.
-There was once a merchant who employed many carpenters and
+> There was once a merchant who employed many carpenters and
 masons to build a temple in his garden. Regularly, they would
 start work in the morning and take a break for the mid-day meals,
 and return to resume work till evening. One day, a group of monkey arrived at the site of the building and watched the workers
