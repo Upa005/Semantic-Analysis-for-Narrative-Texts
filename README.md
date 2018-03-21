@@ -30,30 +30,23 @@ which is an ancient Indian collection of animal fables.
 There was once a merchant who employed many carpenters and
 masons to build a temple in his garden. Regularly, they would
 start work in the morning and take a break for the mid-day meals,
-and return to resume work till evening. One day, a group of mon-
-key arrived at the site of the building and watched the workers
-leaving for their mid-day meals. One of the carpenters was saw-
-ing a huge log of wood. Since, it was only half-done; he placed
+and return to resume work till evening. One day, a group of monkey arrived at the site of the building and watched the workers
+leaving for their mid-day meals. One of the carpenters was sawing a huge log of wood. Since, it was only half-done; he placed
 a wedge in between to prevent the log from closing up. He then
 went along with the other workers for his meal. When all
 the workers were gone, the monkeys came down from the trees
-and started jumping around the site, and playing with the in-
-struments. There was one monkey, who got curious about the
-wedge placed between the log. He sat down on the log, and hav-
-ing placed himself in between the half-split log, caught hold of
+and started jumping around the site, and playing with the instruments. There was one monkey, who got curious about the
+wedge placed between the log. He sat down on the log, and having placed himself in between the half-split log, caught hold of
 the wedge and started pulling at it. All of a sudden, the wedge
-came out. As a result, the half-split log closed in and the mon-
-key got caught in the gap of the log. As was his destiny, he was
+came out. As a result, the half-split log closed in and the monkey got caught in the gap of the log. As was his destiny, he was
 severely wounded.The wise indeed say: One, who interferes in
 other's work, surely comes to grief.
 
 ### Word frequency
-Word frequency is one of the standard approaches used for keyword extrac-
-tions. In narrative text, important characters and their actions are repeatedly
+Word frequency is one of the standard approaches used for keyword extractions. In narrative text, important characters and their actions are repeatedly
 referred. Using word frequency as one of the features helps the algorithm to
 identify key characters and their actions. But frequency alone can't be used
-for summarization as in short narrative text relevant words are rarely re-
-peated. Following is the list of keywords when only word frequency is taken
+for summarization as in short narrative text relevant words are rarely repeated. Following is the list of keywords when only word frequency is taken
 into consideration from the above mentioned Panchatantra Story:
 
 >['log', 'wedge', 'one', 'he', 'workers', 'work', 'placed', 'monkey',
