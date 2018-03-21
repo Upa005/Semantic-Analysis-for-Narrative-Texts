@@ -74,3 +74,61 @@ the list of keywords using word frequency and Pos tags as features :
 
 Adding linguistic knowledge helps in bringing nouns and verbs from the
 story but still the list of keywords is not similar to the story.
+
+### Word co-occurrence
+Word co-occurrence brings those words which are not frequently occurring
+but are associated with prominent keywords. Hence, word co-occurrence
+features recommend relevant word with lower word count as candidate keywords. Following is the list of the keywords when word frequency, PoS tags
+> 'work', 'monkey', 'log', 'start', 'worker', 'meal', 'wedge', 'site',
+'place', 'mid-day', 'day', 'come', 'build', 'half-split', 'caught', 'carpenter', 'watch', 'leave', 'group', 'building', 'arrive', 'tree', 'play',
+'jumping', 'instrument', 'sat', 'return', 'resume', 'pull', 'morning',
+'hold', 'break', 'temple', 'result', 'merchant', 'mason', 'garden']
+
+Adding PoS tags, word co-occurrence and word frequency helps in bringing important keywords around which the story is revolving but still the
+information presented in the above list is scatterd. Hence, sequencing of
+keywords is important. Also, in narrative stories, we have found that certain
+sections are more informational than other sections.
+
+### Proposed Features
+We have used word frequency, sectional weight, PoS tags, co-occurrence and
+sequencing as features to extract keywords that are semantically similar to
+the text. Following is the list of the keywords using our proposed features.
+and word co-occurrence is taken into consideration
+> ['merchant', 'employ', 'carpenter', 'mason', 'build', 'temple', 'garden', 'start', 'work', 'morning', 'break', 'meal', 'return', 'resume',
+'day', 'group', 'monkey', 'arrive', 'site', 'building', 'watch', 'worker',
+'leave', 'log', 'wood', 'half-done', 'place', 'wedge', 'close', 'come',
+'catch', 'result', 'destiny', 'wise', 'say', 'interfere', 'grief']
+
+The above list is semantically similar to the Panchatantra story mentioned
+above. Weights are associated with the words according to their PoS tags,
+frequency, sectional position and co-occurrence.
+
+### Algorithm used
+The algorithm proceeds as follows. First, the text is divided into sections.
+Anaphors (pronouns) are resolved with recent antecedent available. Words
+are then tokenized after stopwords are filtered. Words are annotated with
+parts of speech (PoS) tags. In order to reduce the size of keywords, a syntactical filter is used which filter only nouns and verbs from the lexical unit list.
+Weights are assigned to candidate keywords according to their position in the
+text and the PoS tags associated with the word. The noun which appears
+first in a sentence (dominating noun) is given more weight than the nouns
+appearing later in the sentence. Nouns and verbs which are present in the
+first and last sections are given more strength then present in other sections.
+
+At the end, weights of the words are added and the word co-occurrence is further evaluated and added in the weights. After nal evaluation of weights,
+top 17% of the words are preserved as keywords. The keywords are then
+presented in a sequential order which will help the reader to formulate the
+information.
+![Figure2](https://github.com/Upa005/Semantic-Analysis-for-Narrative-Texts/blob/master/Images/weightvskeyword2.PNG)
+
+This graph represents the weights associated with each keyword. `log', `work',
+`monkey', `wedge'are appearing as the top keywords. The above mentioned
+Panchatantra story is also revolving around the words monkey, log and wedge.
+![Figure3](https://github.com/Upa005/Semantic-Analysis-for-Narrative-Texts/blob/master/Images/sectionvskeyword3.PNG)
+
+This graph represents the co-occurrence of keywords in a sentence. Keywords
+are listed sequentially. Different colour symbols are used to depict keywords
+weights in different sections. Keywords like log, work, monkey, wedge are
+appearing in multiple sections showing their importance in the story. The
+graph represents that most of the words are occurring only in one section.
+There are only a few words which are occurring in multiple sections showing
+their importance in the story.
