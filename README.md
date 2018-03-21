@@ -121,8 +121,8 @@ information.
 
 ![Figure2](https://github.com/Upa005/Semantic-Analysis-for-Narrative-Texts/blob/master/Images/weightvskeyword2.PNG)
 
-This graph represents the weights associated with each keyword. `log', `work',
-`monkey', `wedge'are appearing as the top keywords. The above mentioned
+This graph represents the weights associated with each keyword. log, work,
+monkey, wedge are appearing as the top keywords. The above mentioned
 Panchatantra story is also revolving around the words monkey, log and wedge.
 
 ![Figure3](https://github.com/Upa005/Semantic-Analysis-for-Narrative-Texts/blob/master/Images/sectionvskeyword3.PNG)
